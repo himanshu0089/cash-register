@@ -26,7 +26,6 @@ function calculateChange(amountToBeReturned) {
   // 2010
   // go over all the available
   for (let i = 0; i < availableNotes.length; i++) {
-    // no of notes need for the denomination
     const numberOfNotes = Math.trunc(amountToBeReturned / availableNotes[i]);
     // 2010 / 2000 = 1 || 10 / 500 = 0
 
